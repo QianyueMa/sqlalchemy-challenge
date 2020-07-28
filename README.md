@@ -2,7 +2,7 @@
 
 ## The main scripts to run for analysis: 
 - Step 1 Climate Analysis and Exploration: climate_starter.ipynb
-- Step 2 Climate App
+- Step 2 Climate Flask App: app.py
 
 
 ## Step 1 - Climate Analysis and Exploration
@@ -114,7 +114,6 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
   * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
-    ![temperature](Images/temperature.png)
 
 ### Daily Rainfall Average
 
@@ -130,8 +129,4 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-  ![daily-normals](Images/daily-normals.png)
 
-### Copyright
-
-Trilogy Education Services © 2020. All Rights Reserved.
